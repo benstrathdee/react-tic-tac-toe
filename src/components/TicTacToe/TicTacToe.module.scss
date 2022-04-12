@@ -1,0 +1,31 @@
+%square {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+.Board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Top {
+    @extend %square;
+    border-top: 1px solid transparent;
+}
+.Left {
+    @extend %square;
+    border-left: 1px solid transparent;
+}
+.Right {
+    @extend %square;
+    border-right: 1px solid transparent;
+}
+.Bottom {
+    @extend %square;
+    border-bottom: 1px solid transparent;
+}
+.Center {
+    @extend %square;
+    border: 1px solid black;
+}
