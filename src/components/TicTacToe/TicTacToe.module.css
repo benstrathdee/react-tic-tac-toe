@@ -1,4 +1,4 @@
-.TTTBoard_Square, .TTTBoard_Square__Bottom, .TTTBoard_Square__Right, .TTTBoard_Square__Center, .TTTBoard_Square__Left, .TTTBoard_Square__Top {
+.Board_Square, .Board_Square__Bottom, .Board_Square__Right, .Board_Square__Center, .Board_Square__Left, .Board_Square__Top {
     border: 1px solid black;
     background-color: white;
     height: 100%;
@@ -9,25 +9,25 @@
     font-size: 300%;
   }
   
-  .TTTBoard {
+  .Board {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
-  .TTTBoard_Square__Top {
+  .Board_Square__Top {
     border-top: 1px solid transparent;
   }
-  .TTTBoard_Square__Left {
+  .Board_Square__Left {
     border-left: 1px solid transparent;
   }
-  .TTTBoard_Square__Right {
+  .Board_Square__Right {
     border-right: 1px solid transparent;
   }
-  .TTTBoard_Square__Bottom {
+  .Board_Square__Bottom {
     border-bottom: 1px solid transparent;
   }
   
-  .TTTInfo {
+  .Info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,15 +38,15 @@
     transition: opacity 1s ease;
     transition-delay: 0.5s;
   }
-  .TTTInfo_Title {
+  .Info_Title {
     font-size: xx-large;
     margin: 0;
     font-weight: bold;
   }
-  .TTTInfo_Content {
+  .Info_Content {
     font-size: x-large;
   }
-  .TTTInfo_Button {
+  .Info_Button {
     width: 20%;
     height: 10%;
     border: none;
