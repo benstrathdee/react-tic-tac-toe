@@ -40,7 +40,8 @@
   }
   .TTTInfo_Title {
     font-size: xx-large;
-    margin: 5%;
+    margin: 0;
+    font-weight: bold;
   }
   .TTTInfo_Content {
     font-size: x-large;
