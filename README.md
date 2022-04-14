@@ -7,15 +7,10 @@ files, which you can get around by just renaming the classes)
 
 ## How To Use
 
-Download the project files and either add the component to your own project
-files, or run the whole project to test using:
-
-### `npm start`
-
-Runs the app in the development mode. Open
-[http://localhost:3000](http://localhost:3000) to view it in your browser. The
-page will reload when you make changes. You may also see any lint errors in the
-console.
+Download the project files and either add the component from
+`src/components/TicTacToe` to your own project files, or run the whole project
+using `npm start` to check it out in development mode on
+[http://localhost:3000](http://localhost:3000)
 
 ## Properties
 
