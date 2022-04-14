@@ -159,19 +159,14 @@ const TicTacToe = ({ size = 300, playerOne = "○", playerTwo = "✖" }) => {
 			>
 				{Array.from(Array(9)).map((e, i) => {
 					return (
-						<svg
-							viewBox="10 10 50 50"
+						<div
 							key={"square" + i}
 							data-value={i}
 							className={getClassName(i)}
 							onClick={handleClick}
 							onMouseEnter={handleMouseEnter}
 							onMouseLeave={handleMouseLeave}
-						>
-							<text x="20" y="20">
-								test
-							</text>
-						</svg>
+						></div>
 					);
 				})}
 			</div>
